@@ -2,7 +2,7 @@ name: Run Mac Verisi
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # 4 saatte bir çalışır
+     - cron: '*/30 * * * *'  # 30 dakikada bir çalışır
   workflow_dispatch:  # Manuel çalıştırma seçeneği ekler
 
 jobs:
