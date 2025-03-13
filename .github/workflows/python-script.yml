@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # 4 saatte bir çalışır
+    - cron: '0 * * * *'  # Her saat başında çalışır
   workflow_dispatch:  # Manuel çalıştırma seçeneği ekler
 
 jobs:
