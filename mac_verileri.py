@@ -102,11 +102,11 @@ def fetch_data():
                 veriler.append(veri)
             
             # Verileri bir metin dosyasına kaydetme
-            with open('mac_verileri2.txt', 'w', encoding='utf-8') as file:
+            with open('mac_verileri.txt', 'w', encoding='utf-8') as file:
                 for veri in veriler:
                     file.write(veri + "\n\n")  # Her veri arasında boş satır bırak
                 
-            print("Veriler başarıyla kaydedildi: mac_verileri2.txt")
+            print("Veriler başarıyla kaydedildi: mac_verileri.txt")
 
             # Site adı kontrolü ve güncellemesi
             check_and_update_if_needed()
