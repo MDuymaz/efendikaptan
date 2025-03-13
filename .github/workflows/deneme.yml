@@ -24,10 +24,10 @@ jobs:
 
       - name: Run the Python script
         run: |
-          python deneme.py
+          python main.py
 
       - name: Upload the new_link.txt file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3  # Güncel sürümü kullanıyoruz
         with:
           name: new_link
           path: new_link.txt
