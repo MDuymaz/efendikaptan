@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Hedef URL
-url = "https://t.ly/gCnNB"
+url = "https://trgoals1229.xyz/"
 
 # Web sayfasını alma
 response = requests.get(url)
@@ -30,7 +30,7 @@ if response.status_code == 200:
             yeni_url = f"https://o0.b4c8d3e9f1a2b7c5d85.cfd/{data_url}.m3u8"
             
              # Sabit metni verinin üstüne ekleme
-            sabit_metin = "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n#EXTVLCOPT:http-referrer=https://trgoals1226.xyz/\n"
+            sabit_metin = "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n#EXTVLCOPT:http-referrer=https://trgoals1229.xyz/\n"
             # EXTINF satırı
             extinf = f"#EXTINF:-1 tvg-name=\"beIN SPORTS 1\" tvg-language=\"Turkish\" tvg-country=\"TR\" tvg-id=\"Spor_beINSPORTS\" tvg-logo=\"https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png\" group-title=\"TRGoals\",{saat} {takimlar}"
             # Veriyi formatla
