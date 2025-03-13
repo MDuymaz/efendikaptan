@@ -32,7 +32,7 @@ if response.status_code == 200:
              # Sabit metni verinin üstüne ekleme
             sabit_metin = "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n#EXTVLCOPT:http-referrer=https://trgoals1225.xyz/\n"
             # EXTINF satırı
-            extinf = f"#EXTINF:-1 tvg-name=\"beIN SPORTS 1\" tvg-language=\"Turkish\" tvg-country=\"TR\" tvg-id=\"Spor_beINSPORTS\" tvg-logo=\"https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title=\"TRGoals\",{saat} {takimlar}"
+            extinf = f"#EXTINF:-1 tvg-name=\"beIN SPORTS 1\" tvg-language=\"Turkish\" tvg-country=\"TR\" tvg-id=\"Spor_beINSPORTS\" tvg-logo=\"https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png\" group-title=\"TRGoals\",{saat} {takimlar}"
             # Veriyi formatla
             veri = f"{extinf}\n{sabit_metin}{yeni_url}"
             veriler.append(veri)
