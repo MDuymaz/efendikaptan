@@ -12,5 +12,5 @@ soup = BeautifulSoup(response.text, 'html.parser')
 first_link = soup.find('div', class_='buttons').find('a').get('href')
 
 # Bağlantıyı dosyaya yaz
-with open('link.txt', 'w') as file:
+with open('yeni_link.txt', 'w') as file:
     file.write(first_link)
