@@ -25,3 +25,16 @@ jobs:
     - name: Run script
       run: |
         python mac_verileri.py
+- name: Değişiklikleri kontrol et ve commit et
+      run: |
+        git config --local user.name "Github Action"
+        git config --local user.email "action@github.com"
+        if [ -n "$(git status --porcelain)" ]; then
+          git add mac_verileri.txt  # Güncellenen dosyayı ekleyin.
+          git commit -m "Güncellenen mac_verileri.txt dosyası"
+          git push
+        else
+          echo "No changes to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub tokeni ile authenticate ol
