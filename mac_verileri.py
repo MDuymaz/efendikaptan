@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Hedef URL
-url = "https://trgoals1226.xyz/"
+url = "https://t.ly/gCnNB"
 
 # Web sayfasını alma
 response = requests.get(url)
