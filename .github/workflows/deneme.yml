@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Set up Python 3.x
         uses: actions/setup-python@v2
@@ -27,7 +27,7 @@ jobs:
           python main.py
 
       - name: Upload the new_link.txt file
-        uses: actions/upload-artifact@v2  # Burada sürümü v2 olarak değiştirdik
+        uses: actions/upload-artifact@v3  # Burada sürümü v2 olarak değiştirdik
         with:
           name: new_link
           path: new_link.txt
