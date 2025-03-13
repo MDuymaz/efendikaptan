@@ -1,0 +1,27 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # 4 saatte bir çalışır
+  workflow_dispatch:  # Manuel çalıştırma seçeneği ekler
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run script
+      run: |
+        python txt_to_m3u.py
