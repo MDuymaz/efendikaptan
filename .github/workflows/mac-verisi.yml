@@ -27,7 +27,7 @@ jobs:
         python mac_verileri.py
 
         - name: mac_verileri.txt
-      run: |
+  
         git config --local user.name "Github Action"
         git config --local user.email "action@github.com"
         git add mac_verileri.txt
