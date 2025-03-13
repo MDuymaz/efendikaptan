@@ -25,3 +25,13 @@ jobs:
     - name: Run script
       run: |
         python mac_verileri.py
+
+        - name: Dosyayı commit et ve pushla
+      run: |
+        git config --local user.name "Github Action"
+        git config --local user.email "action@github.com"
+        git add mac_verileri.txt
+        git commit -m "Güncellenen mac_verileri.txt dosyası" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub tokeni ile authenticate ol
