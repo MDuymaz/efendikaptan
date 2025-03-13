@@ -1,6 +1,9 @@
 name: Run Mac Verisi Kontrolü
 
 on:
+   push:
+     branches:
+       -main
   schedule:
     - cron: '0 */3 * * *'  # Her 3 saatte bir çalıştırır.
 
