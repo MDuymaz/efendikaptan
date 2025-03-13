@@ -1,0 +1,26 @@
+name: Mac Verisi Kontrolü
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # Her 3 saatte bir çalıştırır.
+
+jobs:
+  check_mac_veri:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repository'yi çek
+      uses: actions/checkout@v2
+
+    - name: Python ortamını ayarla
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # İstediğiniz Python sürümünü belirtin.
+
+    - name: Gerekli Python paketlerini yükle
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Kodunu çalıştır
+      run: |
+        python mac_verileri.py  # Dosya adını güncelledik.
