@@ -1,4 +1,4 @@
-name: Run Mac Verisi Kontrolü
+name: Run Mac Verisi
 
 on:
    push:
