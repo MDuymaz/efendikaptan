@@ -27,7 +27,7 @@ jobs:
           python main.py
 
       - name: Upload the new_link.txt file
-        uses: actions/upload-artifact@v3  # Güncel sürümü kullanıyoruz
+        uses: actions/upload-artifact@v2  # Burada sürümü v2 olarak değiştirdik
         with:
           name: new_link
           path: new_link.txt
