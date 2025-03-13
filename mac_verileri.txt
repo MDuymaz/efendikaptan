@@ -3,6 +3,10 @@
 #EXTVLCOPT:http-referrer=https://trgoals1226.xyz/
 https://o0.b4c8d3e9f1a2b7c5d85.cfd/yayintrt1.m3u8
 
+aadasdasxc
+
+
+
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:45 Fenerbahçe Beko vs Asvel Villeurbanne
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1226.xyz/
