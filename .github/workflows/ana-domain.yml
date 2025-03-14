@@ -1,6 +1,5 @@
 name: Run Python Script to Monitor URL
 
-# Bu workflow her 15 dakikada bir otomatik olarak çalışacak ve manuel olarak da tetiklenebilir
 on:
   schedule:
     - cron: "*/15 * * * *"  # Her 15 dakikada bir çalıştırılır
@@ -30,18 +29,17 @@ jobs:
       # Python scriptini çalıştırıyoruz
       - name: Run deneme.py script
         run: |
-          # deneme.py'yi çalıştırıyoruz
           python deneme.py
 
-      # Ana link dosyasının içeriğini kontrol ediyoruz
+      # Ana link dosyasını kontrol ediyoruz
       - name: Check if ana_link.txt is updated
         run: |
           echo "Checking if ana_link.txt was updated:"
           cat ana_link.txt  # Dosyanın içeriğini kontrol ediyoruz
           
-          # Eğer dosya güncellenmemişse, hatayı bildiriyoruz
+          # Dosya güncellenmemişse hata veriyoruz
           OLD_URL=$(cat ana_link.txt)
-          NEW_URL=$(python deneme.py)  # Yeni URL'yi almak için tekrar scripti çalıştırıyoruz
+          NEW_URL=$(python deneme.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
           
           if [ "$OLD_URL" == "$NEW_URL" ]; then
             echo "No URL change detected in ana_link.txt"
@@ -49,3 +47,12 @@ jobs:
           else
             echo "URL successfully updated in ana_link.txt"
           fi
+
+      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
+      - name: Commit updated ana_link.txt
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add ana_link.txt
+          git commit -m "Update ana_link.txt with new URL"
+          git push
