@@ -2,9 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Tarayıcıyı headless (gizli) modda başlatmak için seçenekler
@@ -18,24 +15,32 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 try:
     print("Tarayıcı başlatılıyor...")
-    # Web sitesini açıyoruz
-    driver.get("https://trgoals1229.xyz/")
 
-    # Sayfa tamamen yüklendiği için bir süre bekliyoruz
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))  # Sayfa yüklendikten sonra bekle
+    # Ana link dosyasındaki URL'yi okuyoruz
+    with open("ana_link.txt", "r") as file:
+        url = file.read().strip()
+
+    # URL'yi kullanarak web sitesini açıyoruz
+    driver.get(url)
+
+    # Sayfa tamamen yüklendiği için kısa bir süre bekliyoruz
+    time.sleep(3)
     
     # Şu anki URL'yi alıyoruz
     current_url = driver.current_url
     print(f"Açılan URL: {current_url}")
 
-    # URL'yi ana_link.txt dosyasına yazıyoruz
-    with open("ana_link.txt", "w") as file:
-        file.write(current_url)  # URL'yi dosyaya yazıyoruz.
+    # Ana link dosyasını okuyup eski URL'yi kontrol edelim
+    with open("ana_link.txt", "r") as file:
+        old_url = file.read().strip()
 
-    print("Açılan URL 'ana_link.txt' dosyasına kaydedildi.")
+    # Eğer eski URL ile yeni URL farklıysa, dosyayı güncelleyelim
+    if current_url != old_url:
+        print(f"URL değişti. Yeni URL: {current_url}")
 
-except Exception as e:
-    print(f"Hata oluştu: {e}")
+        # Yeni URL'yi ana_link.txt dosyasına yazıyoruz
+        with open("ana_link.txt", "w") as file:
+            file.write(current_url)
 
 finally:
     driver.quit()  # Tarayıcıyı kapatıyoruz
