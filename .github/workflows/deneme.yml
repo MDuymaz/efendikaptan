@@ -28,7 +28,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        python main.py  # main.py dosyasını çalıştırıyoruz
+        python deneme.py  # main.py dosyasını çalıştırıyoruz
 
     - name: Commit generated file
       run: |
