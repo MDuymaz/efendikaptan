@@ -1,52 +1,50 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-import time
-import sys
+name: Python Script Runner
 
-# Tarayıcıyı headless (gizli) modda başlatmak için seçenekler
-options = Options()
-options.add_argument('--headless')  # Tarayıcıyı gizli modda çalıştırır.
-options.add_argument('--disable-gpu')
-options.add_argument('--no-sandbox')
+on:
+  schedule:
+    - cron: "*/15 * * * *"  # Her 15 dakikada bir çalışır
+  workflow_dispatch:  # Manuel olarak da çalıştırılabilir
 
-# WebDriver'ı başlatıyoruz
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # GitHub Actions'ın çalışacağı ortam
 
-try:
-    print("Tarayıcı başlatılıyor...")
+    steps:
+      # Python ortamını kuruyoruz
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Python 3'ün her hangi bir sürümünü kullanabiliriz
 
-    # Ana link dosyasındaki URL'yi okuyoruz
-    with open("ana_link.txt", "r") as file:
-        url = file.read().strip()
+      # Gereksinimlerinizi kuruyoruz (selenium, webdriver_manager)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager
 
-    # URL'nin geçerli olup olmadığını kontrol ediyoruz
-    if not url:
-        print("Ana link dosyası boş veya geçersiz bir URL içeriyor.")
-        sys.exit(1)  # Hata durumunda çıkıyoruz
+      # Script dosyasını çekiyoruz (repo'dan)
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    # URL'yi kullanarak web sitesini açıyoruz
-    driver.get(url)
+      # Python scriptini çalıştırıyoruz ve URL'yi ana_link.txt dosyasına kaydediyoruz
+      - name: Run Python script and update ana_link.txt
+        id: run_script
+        run: |
+          # Python scriptini çalıştırıyoruz ve URL'yi bir değişkene kaydediyoruz
+          NEW_URL=$(python deneme.py)
+          
+          # Çıkan URL'yi ana_link.txt dosyasına kaydediyoruz
+          echo "Yeni URL: $NEW_URL" > ana_link.txt
 
-    # Sayfa tamamen yüklendiği için kısa bir süre bekliyoruz
-    time.sleep(3)
-    
-    # Şu anki URL'yi alıyoruz
-    current_url = driver.current_url
-    print(f"Açılan URL: {current_url}")
-
-    # Ana link dosyasını okuyup eski URL'yi kontrol edelim
-    with open("ana_link.txt", "r") as file:
-        old_url = file.read().strip()
-
-    # Eğer eski URL ile yeni URL farklıysa, dosyayı güncelleyelim
-    if current_url != old_url:
-        print(f"URL değişti. Yeni URL: {current_url}")
-
-        # Yeni URL'yi ana_link.txt dosyasına yazıyoruz
-        with open("ana_link.txt", "w") as file:
-            file.write(current_url)
-
-finally:
-    driver.quit()  # Tarayıcıyı kapatıyoruz
+      # Güncelleme kontrolü: Eğer URL değişmemişse bildirimde bulunuyoruz
+      - name: Check if URL is updated
+        run: |
+          OLD_URL=$(cat ana_link.txt)
+          NEW_URL=$(python deneme.py)
+          
+          if [ "$OLD_URL" == "$NEW_URL" ]; then
+            echo "URL güncellenmedi!"
+            exit 1  # Workflow'u başarısız hale getiriyoruz
+          else
+            echo "URL güncellendi: $NEW_URL"
+          fi
