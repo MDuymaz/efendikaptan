@@ -33,7 +33,7 @@ jobs:
         git config --local user.email "action@github.com"
         if [ -n "$(git status --porcelain)" ]; then
           git add mac_verileri.m3u  # Güncellenen dosyayı ekleyin.
-          git commit -m "Güncellenen mac_verileri.m3u dosyası"
+          git commit -m "M3U dosyası hazır. Iyi seyirler 😊"
           git push
         else
           echo "No changes to commit"
