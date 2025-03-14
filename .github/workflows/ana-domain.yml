@@ -29,7 +29,7 @@ jobs:
       # Python scriptini çalıştırıyoruz
       - name: Run ana_domain_alma.py script
         run: |
-          python ana_domain_alma.py.py
+          python ana_domain_alma.py
 
       # Ana link dosyasını kontrol ediyoruz
       - name: Check if ana_link.txt is updated
