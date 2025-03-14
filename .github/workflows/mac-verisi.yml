@@ -33,7 +33,7 @@ jobs:
         git config --local user.email "action@github.com"
         if [ -n "$(git status --porcelain)" ]; then
           git add mac_verileri.txt  # Güncellenen dosyayı ekleyin.
-          git commit -m "Güncellenen mac_verileri.txt dosyası"
+          git commit -m "Mac Verileri Güncellendi."
           git push
         else
           echo "No changes to commit"
