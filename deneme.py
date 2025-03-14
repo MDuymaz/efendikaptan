@@ -2,6 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Tarayıcıyı headless (gizli) modda başlatmak için seçenekler
@@ -18,8 +21,8 @@ try:
     # Web sitesini açıyoruz
     driver.get("https://trgoals1229.xyz/")
 
-    # Sayfa tamamen yüklendiği için kısa bir süre bekliyoruz
-    time.sleep(3)
+    # Sayfa tamamen yüklendiği için bir süre bekliyoruz
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))  # Sayfa yüklendikten sonra bekle
     
     # Şu anki URL'yi alıyoruz
     current_url = driver.current_url
@@ -30,6 +33,9 @@ try:
         file.write(current_url)  # URL'yi dosyaya yazıyoruz.
 
     print("Açılan URL 'ana_link.txt' dosyasına kaydedildi.")
+
+except Exception as e:
+    print(f"Hata oluştu: {e}")
 
 finally:
     driver.quit()  # Tarayıcıyı kapatıyoruz
