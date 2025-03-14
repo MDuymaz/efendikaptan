@@ -1,9 +1,9 @@
-name: Python Script Runner
+name: Run Python Script and Monitor URL
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # Her 15 dakikada bir çalışır
-  workflow_dispatch:  # Manuel olarak da çalıştırılabilir
+    - cron: "*/15 * * * *"  # Her 15 dakikada bir çalıştırılır
+  workflow_dispatch:  # Manuel olarak çalıştırılabilir
 
 jobs:
   run-script:
@@ -16,35 +16,37 @@ jobs:
         with:
           python-version: '3.x'  # Python 3'ün her hangi bir sürümünü kullanabiliriz
 
-      # Gereksinimlerinizi kuruyoruz (selenium, webdriver_manager)
+      # Gerekli Python bağımlılıklarını yükliyoruz
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install selenium webdriver-manager
 
-      # Script dosyasını çekiyoruz (repo'dan)
+      # Reponun içeriğini çekiyoruz
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Python scriptini çalıştırıyoruz ve URL'yi ana_link.txt dosyasına kaydediyoruz
-      - name: Run Python script and update ana_link.txt
+      # Python scriptini çalıştırıyoruz
+      - name: Run Python script to get URL
         id: run_script
         run: |
-          # Python scriptini çalıştırıyoruz ve URL'yi bir değişkene kaydediyoruz
-          NEW_URL=$(python deneme.py)
-          
-          # Çıkan URL'yi ana_link.txt dosyasına kaydediyoruz
-          echo "Yeni URL: $NEW_URL" > ana_link.txt
+          python deneme.py  # deneme.py'yi çalıştırıyoruz
 
-      # Güncelleme kontrolü: Eğer URL değişmemişse bildirimde bulunuyoruz
+      # URL'yi kontrol ediyoruz ve güncellenip güncellenmediğini kontrol ediyoruz
       - name: Check if URL is updated
         run: |
-          OLD_URL=$(cat ana_link.txt)
+          # Mevcut URL'yi alıyoruz
+          CURRENT_URL=$(cat ana_link.txt)
+          echo "Mevcut URL: $CURRENT_URL"
+
+          # Yeni URL'yi alıyoruz
           NEW_URL=$(python deneme.py)
-          
-          if [ "$OLD_URL" == "$NEW_URL" ]; then
+          echo "Yeni URL: $NEW_URL"
+
+          # Eğer URL değişmediyse hata mesajı veriyoruz
+          if [ "$CURRENT_URL" == "$NEW_URL" ]; then
             echo "URL güncellenmedi!"
-            exit 1  # Workflow'u başarısız hale getiriyoruz
+            exit 1  # Workflow'u başarısız yapıyoruz
           else
-            echo "URL güncellendi: $NEW_URL"
+            echo "URL güncellendi!"
           fi
