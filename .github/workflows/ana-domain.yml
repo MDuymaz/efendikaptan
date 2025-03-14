@@ -62,9 +62,9 @@ jobs:
           else
             git add ana_link.txt
             if [ "${{ env.no_update }}" == "true" ]; then
-              git commit -m "URL güncellemeye gerek yoktur"  # URL değişmemişse özel mesaj
+              git commit -m "Domain URL güncellemeye gerek yoktur"  # URL değişmemişse özel mesaj
             else
-              git commit -m "Update ana_link.txt with new URL"  # URL güncellenmişse normal mesaj
+              git commit -m "Domain URL güncellendi. "  # URL güncellenmişse normal mesaj
             fi
             git push
           fi
