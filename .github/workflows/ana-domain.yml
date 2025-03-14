@@ -42,10 +42,9 @@ jobs:
           NEW_URL=$(python deneme.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
           
           if [ "$OLD_URL" == "$NEW_URL" ]; then
-            echo "No URL change detected in ana_link.txt"
-            exit 1  # Workflow'u başarısız yapıyoruz
+            echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
           else
-            echo "URL successfully updated in ana_link.txt"
+            echo "URL başarıyla ana_link.txt dosyasına güncellendi"
           fi
 
       # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
@@ -56,3 +55,4 @@ jobs:
           git add ana_link.txt
           git commit -m "Update ana_link.txt with new URL"
           git push
+        continue-on-error: true  # Git işlemlerinde hata olsa bile devam etmesini sağlarız
