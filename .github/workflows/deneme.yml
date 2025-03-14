@@ -25,23 +25,28 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-chromedriver
+          sudo apt-get install -y xvfb
           pip install selenium webdriver-manager
+
+      - name: Start Xvfb (virtual display)
+        run: |
+          export DISPLAY=:99.0
+          Xvfb :99 -screen 0 1280x1024x24 &
 
       - name: Run the Selenium script
         run: |
           python deneme.py
-        env:
-          DISPLAY: ':99.0'
+
       - name: Değişiklikleri kontrol et ve commit et
         run: |
-        git config --local user.name "Github Action"
-        git config --local user.email "action@github.com"
-        if [ -n "$(git status --porcelain)" ]; then
-          git add ana_link.txt  # Güncellenen dosyayı ekleyin.
-          git commit -m "Güncellenen ana_link.txt dosyası"
-          git push
-        else
-          echo "No changes to commit"
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub tokeni ile authenticate ol
+          git config --local user.name "Github Action"
+          git config --local user.email "action@github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add ana_link.txt  # Güncellenen dosyayı ekleyin.
+            git commit -m "Güncellenen ana_link.txt dosyası"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub tokeni ile authenticate ol
