@@ -1,9 +1,10 @@
 name: Run Python Script
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Her saat başında çalışır
-  workflow_dispatch:  # Manuel çalıştırma seçeneği ekler
+  workflow_run:
+    workflows: ["Run Mac Verisi"]  # Mac Verisi workflow'u tamamlandıktan sonra çalışacak
+    types:
+      - completed
 
 jobs:
   run-script:
@@ -25,6 +26,7 @@ jobs:
     - name: Run script
       run: |
         python txt_to_m3u.py
+
     - name: Değişiklikleri kontrol et ve commit et
       run: |
         git config --local user.name "Github Action"
