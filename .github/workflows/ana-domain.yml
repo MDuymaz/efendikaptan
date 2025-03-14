@@ -1,5 +1,6 @@
-name: Run Python Script and Monitor URL
+name: Run Python Script to Monitor URL
 
+# Bu workflow her 15 dakikada bir otomatik olarak çalışacak ve manuel olarak da tetiklenebilir
 on:
   schedule:
     - cron: "*/15 * * * *"  # Her 15 dakikada bir çalıştırılır
@@ -7,16 +8,16 @@ on:
 
 jobs:
   run-script:
-    runs-on: ubuntu-latest  # GitHub Actions'ın çalışacağı ortam
+    runs-on: ubuntu-latest  # GitHub Actions'ı çalıştıracak ortam
 
     steps:
       # Python ortamını kuruyoruz
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # Python 3'ün her hangi bir sürümünü kullanabiliriz
+          python-version: '3.x'  # Python 3.x sürümünü kullanıyoruz
 
-      # Gerekli Python bağımlılıklarını yükliyoruz
+      # Selenium ve diğer gerekli bağımlılıkları yüklüyoruz
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -27,26 +28,24 @@ jobs:
         uses: actions/checkout@v2
 
       # Python scriptini çalıştırıyoruz
-      - name: Run Python script to get URL
-        id: run_script
+      - name: Run deneme.py script
         run: |
-          python deneme.py  # deneme.py'yi çalıştırıyoruz
+          # deneme.py'yi çalıştırıyoruz
+          python deneme.py
 
-      # URL'yi kontrol ediyoruz ve güncellenip güncellenmediğini kontrol ediyoruz
-      - name: Check if URL is updated
+      # Ana link dosyasının içeriğini kontrol ediyoruz
+      - name: Check if ana_link.txt is updated
         run: |
-          # Mevcut URL'yi alıyoruz
-          CURRENT_URL=$(cat ana_link.txt)
-          echo "Mevcut URL: $CURRENT_URL"
-
-          # Yeni URL'yi alıyoruz
-          NEW_URL=$(python deneme.py)
-          echo "Yeni URL: $NEW_URL"
-
-          # Eğer URL değişmediyse hata mesajı veriyoruz
-          if [ "$CURRENT_URL" == "$NEW_URL" ]; then
-            echo "URL güncellenmedi!"
+          echo "Checking if ana_link.txt was updated:"
+          cat ana_link.txt  # Dosyanın içeriğini kontrol ediyoruz
+          
+          # Eğer dosya güncellenmemişse, hatayı bildiriyoruz
+          OLD_URL=$(cat ana_link.txt)
+          NEW_URL=$(python deneme.py)  # Yeni URL'yi almak için tekrar scripti çalıştırıyoruz
+          
+          if [ "$OLD_URL" == "$NEW_URL" ]; then
+            echo "No URL change detected in ana_link.txt"
             exit 1  # Workflow'u başarısız yapıyoruz
           else
-            echo "URL güncellendi!"
+            echo "URL successfully updated in ana_link.txt"
           fi
