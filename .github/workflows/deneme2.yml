@@ -10,7 +10,6 @@ on:
       - main
   schedule:
     - cron: '*/15 * * * *'  # Bu satır 15 dakikada bir çalıştırılmasını sağlar
-  workflow_dispatch:  # Manuel çalıştırma desteği
 
 jobs:
   run-selenium:
@@ -41,14 +40,18 @@ jobs:
         run: |
           python deneme.py
 
-      - name: Değişiklikleri kontrol et ve commit et
+      - name: Pull the latest changes from the remote repository
         run: |
-          git config --local user.name "Github Action"
-          git config --local user.email "action@github.com"
+          git pull origin main --rebase  # Uzak depodaki değişiklikleri al
+
+      - name: Commit and push changes to GitHub if there are any
+        run: |
+          git config --global user.name "Github Action"
+          git config --global user.email "action@github.com"
           if [ -n "$(git status --porcelain)" ]; then
             git add ana_link.txt  # Güncellenen dosyayı ekleyin.
             git commit -m "Güncellenen ana_link.txt dosyası"
-            git push
+            git push origin main  # Değişiklikleri uzak depoya gönder
           else
             echo "No changes to commit"
           fi
