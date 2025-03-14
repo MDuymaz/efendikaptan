@@ -25,5 +25,11 @@ try:
     current_url = driver.current_url
     print(f"Açılan URL: {current_url}")
 
+    # URL'yi ana_link.txt dosyasına yazıyoruz
+    with open("ana_link.txt", "w") as file:
+        file.write(current_url)  # URL'yi dosyaya yazıyoruz.
+
+    print("Açılan URL 'ana_link.txt' dosyasına kaydedildi.")
+
 finally:
     driver.quit()  # Tarayıcıyı kapatıyoruz
