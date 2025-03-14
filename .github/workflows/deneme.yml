@@ -29,7 +29,7 @@ jobs:
 
       - name: Run the Selenium script
         run: |
-          python selenium_script.py
+          python deneme.py
         env:
           DISPLAY: ':99.0'
 
