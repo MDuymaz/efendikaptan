@@ -29,6 +29,12 @@ jobs:
 
       - name: Run the Selenium script
         run: |
-          python deneme.py
+          python selenium_script.py
         env:
           DISPLAY: ':99.0'
+
+      - name: Upload the URL file as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ana_link_file
+          path: ana_link.txt
