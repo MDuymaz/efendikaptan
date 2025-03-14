@@ -33,6 +33,7 @@ jobs:
 
       # Ana link dosyasını kontrol ediyoruz
       - name: Check if ana_link.txt is updated
+        id: check_update
         run: |
           echo "Checking if ana_link.txt was updated:"
           cat ana_link.txt  # Dosyanın içeriğini kontrol ediyoruz
@@ -43,8 +44,10 @@ jobs:
           
           if [ "$OLD_URL" == "$NEW_URL" ]; then
             echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
+            echo "no_update=true" >> $GITHUB_ENV  # URL değişmemişse bir environment variable set ediyoruz
           else
             echo "URL başarıyla ana_link.txt dosyasına güncellendi"
+            echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
           fi
 
       # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
@@ -53,6 +56,13 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add ana_link.txt
-          git commit -m "Update ana_link.txt with new URL"
+          
+          # Eğer URL güncellenmediyse, commit mesajı farklı olacak
+          if [ "${{ env.no_update }}" == "true" ]; then
+            git commit -m "URL güncellemeye gerek yoktur"  # URL değişmemişse özel mesaj
+          else
+            git commit -m "Update ana_link.txt with new URL"  # URL güncellenmişse normal mesaj
+          fi
+          
           git push
         continue-on-error: true  # Git işlemlerinde hata olsa bile devam etmesini sağlarız
