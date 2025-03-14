@@ -33,7 +33,7 @@ jobs:
         env:
           DISPLAY: ':99.0'
       - name: Değişiklikleri kontrol et ve commit et
-      run: |
+        run: |
         git config --local user.name "Github Action"
         git config --local user.email "action@github.com"
         if [ -n "$(git status --porcelain)" ]; then
