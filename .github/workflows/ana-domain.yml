@@ -27,9 +27,9 @@ jobs:
         uses: actions/checkout@v2
 
       # Python scriptini çalıştırıyoruz
-      - name: Run deneme.py script
+      - name: Run ana_domain_alma.py script
         run: |
-          python deneme.py
+          python ana_domain_alma.py.py
 
       # Ana link dosyasını kontrol ediyoruz
       - name: Check if ana_link.txt is updated
@@ -40,7 +40,7 @@ jobs:
           
           # Dosya güncellenmemişse hata veriyoruz
           OLD_URL=$(cat ana_link.txt)
-          NEW_URL=$(python deneme.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          NEW_URL=$(python ana_domain_alma.py.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
           
           if [ "$OLD_URL" == "$NEW_URL" ]; then
             echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
