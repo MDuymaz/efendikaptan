@@ -32,9 +32,3 @@ jobs:
           python deneme.py
         env:
           DISPLAY: ':99.0'
-
-      - name: Upload the URL file as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: ana_link_file
-          path: ana_link.txt
