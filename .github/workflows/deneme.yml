@@ -1,3 +1,34 @@
-git add .github/workflows/selenium.yml
-git commit -m "Add selenium script to run in GitHub Actions"
-git push origin main
+name: Selenium Script Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-selenium:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-chromedriver
+          pip install selenium webdriver-manager
+
+      - name: Run the Selenium script
+        run: |
+          python deneme.py
+        env:
+          DISPLAY: ':99.0'
