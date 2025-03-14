@@ -68,4 +68,12 @@ jobs:
             fi
             git push
           fi
-        continue-on-error: true  # Git işlemlerinde hata olsa bile devam etmesini sağlarız
+
+      # mac-verisi.yml workflow'unu tetiklemek
+      - name: Trigger mac-verisi.yml workflow
+        if: success()  # Bu adımdan önce başarılı olursa tetiklenir
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"ref": "main"}' \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/mac-verisi.yml/dispatches
