@@ -3,23 +3,21 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-def main():
-    # Tarayıcı sürücüsünü başlat
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# Selenium ile tarayıcıyı başlat
+service = Service(ChromeDriverManager().install())
+driver = webdriver.Chrome(service=service)
 
-    # Hedef web sayfasını aç
-    driver.get("https://trgoals1234.xyz/")
+# Sayfayı aç
+driver.get("https://trgoals1234.xyz/")
+time.sleep(5)  # Sayfanın tamamen yüklenmesi için bekle
 
-    # Sayfanın tam olarak yüklenmesi için bekleyin
-    time.sleep(5)
+# Tüm script içeriklerini al
+scripts = driver.find_elements("tag name", "script")
+with open("baseurl.txt", "w", encoding='utf-8') as f:
+    for script in scripts:
+        script_content = script.get_attribute('innerHTML')
+        if script_content:  # Boş içerik olanları yazma
+            f.write(script_content + "\n")  # Her script'ten sonra yeni satır
 
-    # Sayfanın HTML içeriğini al
-    html_content = driver.page_source
-
-    # Çıktıyı bir dosyaya kaydet
-    with open("trgoals1234.html", "w", encoding="utf-8") as file:
-        file.write(html_content)
-
-    # Tarayıcıyı kapat
-    driver.quit()
-    print("HTML içeriği kaydedildi.")
+# Tarayıcıyı kapat
+driver.quit()
