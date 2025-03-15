@@ -2,7 +2,7 @@ name: Run Mac Verisi
 
 on:
   workflow_run:
-    workflows: ["Run Python Script to Monitor URL"]  # Ana Domain workflow'u tamamlandığında çalışacak
+    workflows: ["Run base_url.py script"]  # Ana Domain workflow'u tamamlandığında çalışacak
     types:
       - completed
 
