@@ -1,0 +1,54 @@
+name: Base URL Extractor
+
+on:
+  workflow_dispatch:  # Manuel başlatmak için
+
+jobs:
+  run-base-url-scraper:
+    runs-on: ubuntu-latest  # Ubuntu üzerinde çalışacak
+
+    steps:
+    # Repositori'yi checkout ediyoruz (yani, dosyaları alıyoruz)
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Python ortamını kuruyoruz
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'  # Python 3.9 sürümünü kullanıyoruz
+
+    # Gereken paketleri yüklemek için pip kullanıyoruz
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+
+    # base_url.py dosyasını çalıştırıyoruz
+    - name: Run base_url.py script
+      run: |
+        python base_url.py
+
+    # Base URL değiştiyse, bunu commit ediyoruz
+    - name: Commit changes if base URL changed
+      run: |
+        # Git'in başlangıç ayarlarını yapıyoruz
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        
+        # Eğer baseurl.txt dosyasında değişiklik olduysa commit ediyoruz
+        git diff --exit-code baseurl.txt || git commit -am "Base URL güncellendi."
+        
+        # Değişiklik yaptıysak push ediyoruz
+        git push origin HEAD
+ env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub tokeni ile authenticate ol
+
+    # python-script.yml workflow'unu tetiklemek
+    - name: Trigger python-script.yml workflow
+      if: success()  # Bu adımdan önce başarılı olursa tetiklenir
+      run: |
+        curl -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -d '{"ref": "main"}' \
+          https://api.github.com/repos/${{ github.repository }}/actions/workflows/mac-verisi.yml/dispatches
