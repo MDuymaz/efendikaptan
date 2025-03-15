@@ -3,7 +3,6 @@ name: Run Sequential Workflows
 on:
   schedule:
     - cron: '0 */2 * * *' # Her 2 saatte bir çalıştırır
-    on:
      workflow_dispatch:
   push:
     branches:
