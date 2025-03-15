@@ -1,10 +1,7 @@
 name: Run base_url.py script
 
 on:
-  schedule:
-  
-  workflow_dispatch:  # Manuel çalıştırma için
-
+ workflow_dispatch:  # Manuel çalıştırma için
 jobs:
   run_base_url_script:
     runs-on: ubuntu-latest
