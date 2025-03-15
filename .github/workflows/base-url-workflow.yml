@@ -1,28 +1,29 @@
-name: Run Selenium Script
+name: Fetch HTML
 
 on:
   push:
     branches:
-      - main  # Ana dal üzerinde bir değişiklik yapıldığında tetiklenecek
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
+      - main
+  workflow_dispatch:
 
 jobs:
-  run-selenium:
-    runs-on: ubuntu-latest  # İşin çalışacağı ortam
-
+  build:
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2  # Depoyu klonlar
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'  # Python sürümünü belirt
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install selenium webdriver-manager  # Gerekli kütüphaneleri yükler
-
-    - name: Run Selenium script
-      run: python base_url.py  # Python dosyasının adı
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install selenium webdriver-manager
+      - name: Run script
+        run: python base_url.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add base_url.html
+          git commit -m "Update base_url.html"
+          git push
