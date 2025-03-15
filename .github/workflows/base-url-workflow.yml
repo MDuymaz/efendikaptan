@@ -1,38 +1,28 @@
-name: Selenium Web Scraping
+name: Run Selenium Script
 
 on:
   push:
     branches:
-      - main  # Ana branch'a push yapıldığında tetiklenir
-  pull_request:
-    branches:
-      - main  # Ana branch'a pull request yapıldığında tetiklenir
+      - main  # Ana dal üzerinde bir değişiklik yapıldığında tetiklenecek
+  workflow_dispatch:  # Manuel olarak çalıştırılabilir
 
 jobs:
-  selenium-scraping:
-    runs-on: ubuntu-latest  # Ubuntu üzerinde çalıştırılacak
+  run-selenium:
+    runs-on: ubuntu-latest  # İşin çalışacağı ortam
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2  # Kodun repo'dan çekilmesi
+    - name: Checkout code
+      uses: actions/checkout@v2  # Depoyu klonlar
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # Python 3.8 sürümünü kullanacağız
+        python-version: '3.8'  # Python sürümünü belirt
 
     - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable  # Google Chrome'u yükle
-        pip install selenium webdriver-manager  # Selenium ve WebDriver manager kurulumu
+        python -m pip install --upgrade pip
+        pip install selenium webdriver-manager  # Gerekli kütüphaneleri yükler
 
     - name: Run Selenium script
-      run: |
-        python base_url.py  # Python scriptinizi burada çalıştırın
-
-    - name: Upload Scraped Data
-      uses: actions/upload-artifact@v2
-      with:
-        name: scraped-scripts
-        path: scripts_output_selenium.html  # Çıkarttığınız dosyayı yükleyin
+      run: python base_url.py  # Python dosyasının adı
