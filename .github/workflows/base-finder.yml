@@ -45,8 +45,7 @@ jobs:
             echo "URL başarıyla base_url.txt dosyasına güncellendi"
             echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
           fi
-
-      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
+          # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
       - name: Commit updated base_url.txt
         run: |
           git config --global user.name "GitHub Actions"
@@ -66,7 +65,7 @@ jobs:
           fi
 
         # mac-verisi.yml workflow'unu tetiklemek
-         - name: Trigger mac-verisi.yml workflow
+      - name: Trigger mac-verisi.yml workflow
          if: success()  # Bu adımdan önce başarılı olursa tetiklenir
          run: |
         curl -X POST \
