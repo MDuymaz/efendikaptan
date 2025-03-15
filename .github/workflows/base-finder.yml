@@ -1,0 +1,65 @@
+name: Run base_url.py script
+
+on:
+  schedule:
+  
+  workflow_dispatch:  # Manuel çalıştırma için
+
+jobs:
+  run_base_url_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'  # Python sürümünü istediğiniz gibi ayarlayabilirsiniz
+
+      - name: Install dependencies
+        run: |
+          pip install selenium webdriver-manager
+
+      - name: Run base_url.py
+        run: |
+          python base_url.py  # base_url.py dosyasını çalıştır
+
+     # Ana link dosyasını kontrol ediyoruz
+      - name: Check if base_url.txt is updated
+        id: check_update
+        run: |
+          echo "Checking if base_url.txt was updated:"
+          cat base_url.txt  # Dosyanın içeriğini kontrol ediyoruz
+          
+          # Dosya güncellenmemişse hata veriyoruz
+          OLD_URL=$(cat base_url.txt)
+          NEW_URL=$(python base_url.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          
+          if [ "$OLD_URL" == "$NEW_URL" ]; then
+            echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
+            echo "no_update=true" >> $GITHUB_ENV  # URL değişmemişse bir environment variable set ediyoruz
+          else
+            echo "URL başarıyla base_url.txt dosyasına güncellendi"
+            echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
+          fi
+
+      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
+      - name: Commit updated base_url.txt
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Değişiklik olup olmadığını kontrol et
+          if git diff --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
+            git add base_url.txt
+            if [ "${{ env.no_update }}" == "true" ]; then
+              git commit -m "Domain URL güncellemeye gerek yoktur"  # URL değişmemişse özel mesaj
+            else
+              git commit -m "Domain URL güncellendi. "  # URL güncellenmişse normal mesaj
+            fi
+            git push
+          fi
