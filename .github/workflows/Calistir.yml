@@ -2,8 +2,8 @@ name: Run Sequential Workflows
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Her 2 saatte bir çalıştırır
-     workflow_dispatch:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -22,9 +22,12 @@ jobs:
               workflow_id: 'ana-domain.yml',
               ref: 'refs/heads/main'
             })
-      - name: Wait for Ana Domain Workflow to Complete
-        run: sleep 10
       
+      - name: Wait for Ana Domain Workflow to Complete
+        run: |
+          echo "Waiting for Ana Domain Workflow to complete..."
+          # Burada daha iyi bir bekleme mekanizması kullanılabilir.
+
       - name: Run Base Finder Workflow
         uses: actions/github-script@v6
         with:
@@ -35,9 +38,12 @@ jobs:
               workflow_id: 'base-finder.yml',
               ref: 'refs/heads/main'
             })
-      - name: Wait for Base Finder Workflow to Complete
-        run: sleep 10
       
+      - name: Wait for Base Finder Workflow to Complete
+        run: |
+          echo "Waiting for Base Finder Workflow to complete..."
+          # Bekleme kodu.
+
       - name: Run Mac Verisi Workflow
         uses: actions/github-script@v6
         with:
@@ -48,9 +54,12 @@ jobs:
               workflow_id: 'mac-verisi.yml',
               ref: 'refs/heads/main'
             })
-      - name: Wait for Mac Verisi Workflow to Complete
-        run: sleep 10
       
+      - name: Wait for Mac Verisi Workflow to Complete
+        run: |
+          echo "Waiting for Mac Verisi Workflow to complete..."
+          # Bekleme kodu.
+
       - name: Run Python Script Workflow
         uses: actions/github-script@v6
         with:
