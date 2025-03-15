@@ -28,7 +28,7 @@ if response.status_code == 200:
             data_url = mac['data-url'].replace("/channel.html?id=", "")  # 'id=' kısımlarını kaldır
             
             # Yeni URL'i ekleme
-            yeni_url = f"https://o0.b4c8d3e9f1a2b7c5d85.cfd/{data_url}.m3u8"
+            yeni_url = f"https://h0.f51676256ac9fa68.workers.dev/{data_url}.m3u8"
             
             # Sabit metni verinin üstüne ekleme
             sabit_metin = f"#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n#EXTVLCOPT:http-referrer={url}\n"
