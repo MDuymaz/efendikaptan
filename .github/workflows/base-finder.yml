@@ -63,6 +63,8 @@ jobs:
             fi
             git push
           fi
+          env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         # mac-verisi.yml workflow'unu tetiklemek
       - name: Trigger mac-verisi.yml workflow
