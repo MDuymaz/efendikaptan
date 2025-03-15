@@ -1,32 +1,47 @@
-import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+import time
 
-# ana_link.txt dosyasından URL'yi okuyoruz
-with open('ana_link.txt', 'r') as file:
-    url = file.read().strip()  # URL'yi okuyoruz ve varsa boşlukları kaldırıyoruz
+# Chrome options
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")  # Headless modda çalıştır
+options.add_argument("--no-sandbox")  # Güvenlik sandviçini devre dışı bırak
+options.add_argument("--disable-dev-shm-usage")  # Bellek paylaşımı sorunlarını önlemek için
 
-# Web sayfasını GET isteği ile alıyoruz
-response = requests.get(url)
+# WebDriver'ı başlatın
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-# Eğer isteğimiz başarılı olduysa, HTML içeriğini işleme alıyoruz
-if response.status_code == 200:
-    # HTML içeriğini BeautifulSoup ile analiz ediyoruz
-    soup = BeautifulSoup(response.text, 'html.parser')
+# Web sitesinin URL'sini belirtin
+url = "https://trgoals1234.xyz/"
+
+# Sayfayı yükle
+driver.get(url)
+
+# Sayfanın tamamen yüklenmesini beklemek için bir süre bekleyin
+time.sleep(5)  # Sayfanın yüklenmesi için 5 saniye bekleyelim
+
+# Tüm <script> etiketlerini bul
+scripts = driver.find_elements(By.TAG_NAME, 'script')
+
+# HTML içeriğini kaydedeceğimiz dosyayı aç
+with open("scripts_output_selenium.html", "w", encoding="utf-8") as file:
+    # HTML dosyasının başını yaz
+    file.write("<html><head><title>Script İçerikleri</title></head><body>\n")
+    file.write("<h1>Web Sayfasındaki Script Etiketleri</h1>\n")
     
-    # 'mainContainer' sınıfına sahip olan section'ı buluyoruz
-    main_container = soup.find('section', class_='mainContainer')
+    # Her bir <script> etiketinin içeriğini dosyaya yaz
+    for i, script in enumerate(scripts):
+        script_content = script.get_attribute('innerHTML')  # script içeriğini al
+        if script_content:
+            file.write(f"<h2>Script #{i+1}</h2>\n")
+            file.write(f"<pre>{script_content}</pre>\n")
     
-    # Eğer base tag'ı varsa, href özniteliğini alıyoruz
-    base_tag = soup.find('base')
-    if base_tag and base_tag.get('href'):
-        base_url = base_tag.get('href')
-        
-        # Base URL'yi bir txt dosyasına yazıyoruz
-        with open('baseurl.txt', 'w') as file:
-            file.write(base_url)
-        
-        print("Base URL başarıyla baseurl.txt dosyasına yazıldı.")
-    else:
-        print("Base URL bulunamadı.")
-else:
-    print("Web sitesine bağlanırken bir hata oluştu. Status code:", response.status_code)
+    # HTML dosyasının sonunu yaz
+    file.write("</body></html>\n")
+
+# Tarayıcıyı kapat
+driver.quit()
+
+print("Script içerikleri başarıyla kaydedildi: scripts_output_selenium.html")
