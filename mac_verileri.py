@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
+# base_url.txt dosyasından URL'yi oku
+with open('base_url.txt', 'r') as file:
+    base_url = file.read().strip()  # base_url'i dosyadan al ve boşluklardan temizle
+
 # ana_link.txt dosyasından URL'yi oku
 with open('ana_link.txt', 'r') as file:
     url = file.read().strip()  # URL'yi dosyadan al ve boşluklardan temizle
@@ -27,8 +31,8 @@ if response.status_code == 200:
             takimlar = mac.find('span', class_='takimlar').text.strip()
             data_url = mac['data-url'].replace("/channel.html?id=", "")  # 'id=' kısımlarını kaldır
             
-            # Yeni URL'i ekleme
-            yeni_url = f"https://h0.f51676256ac9fa68.workers.dev/{data_url}.m3u8"
+            # Yeni URL'i base_url.txt'den okunan URL ile oluşturma
+            yeni_url = f"{base_url}/{data_url}.m3u8"
             
             # Sabit metni verinin üstüne ekleme
             sabit_metin = f"#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n#EXTVLCOPT:http-referrer={url}\n"
