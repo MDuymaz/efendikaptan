@@ -5,6 +5,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import os
 
+# ana_link.txt dosyasından URL'yi oku
+with open('ana_link.txt', 'r') as file:
+    base_url = file.read().strip()  # URL'yi dosyadan al ve boşluklardan temizle
+
+# URL'yi oluştur
+url = f"{base_url}/channel.html?id=yayin1"
+
 # Chrome seçeneklerini ayarla
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Başsız (headless) modda çalıştırmak için
@@ -15,7 +22,6 @@ chrome_options.add_argument("--disable-dev-shm-usage")  # /dev/shm kullanımın�
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
 # Sayfayı aç
-url = "https://trgoals1235.xyz//channel.html?id=yayin1"
 driver.get(url)
 
 # Sayfanın tamamen yüklenmesi için bir süre bekle
