@@ -1,375 +1,375 @@
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:30 Fenerbahçe - Samsunspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayin1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayin1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:00 Göztepe - Eyüpspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayin1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayin1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:00 Hatayspor - Sivasspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",13:30 Ç.Rizespor - Bodrumspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayin1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayin1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",13:00 Bahçeşehir Klj - Bursaspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb5.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb5.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",13:30 Kuzeyboru - Fenerbahçe Medicana
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",13:30 İstanbulspor - Gençlerbirliği
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",13:30 Çorum FK - Keçiörengücü
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinbm1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinbm1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",14:30 Venezia - Napoli
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",15:30 Braunschweig - Hertha Berlin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",15:30 Karlsruhe - Ulm
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint3.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint3.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",15:30 Nürnberg - Greuther Fürth
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",15:30 Türk Telekom - Petkimspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb5.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb5.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",15:30 Celtic - Glasgow Rangers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinex1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinex1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:00 Leganes - Real Betis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:00 Amedspor - Erzurumspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:30 Arsenal - Chelsea
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb3.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb3.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:30 Fulham - Tottenham
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb4.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb4.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",16:30 Twente vs Feyenoord
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintv85.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintv85.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",17:00 Lyon - Le Havre
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinbm2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinbm2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",17:00 Bologna - Lazio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",17:30 Bochum vs Eintracht Frankfurt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",18:00 Roma - Cagliari
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",18:00 Tofaş - Darüşşafaka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb5.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb5.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",18:00 İsviçre - Türkiye
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",18:15 Sevilla - Athletic Bilbao
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:00 Morabanc Andorra - Barcelona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinsms2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinsms2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:00 I.Chumgalakova - N.Kyzaibay
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:15 Brest - Reims
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb4.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb4.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:15 M.Hu - A.Balkibekova
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:30 Heidenheim - Holstein Kiel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinbm1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinbm1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:30 Galatasaray Daikin - Eczacibasi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:30 Busenaz Çakıroğlu - M.Pang Chol
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:30 Liverpool vs Newcastle
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintv85.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintv85.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",19:45 W.Bertal - Hatice Akbaş
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:00 Fiorentina - Juventus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:00 Cleveland Cavaliers - Orlando Magic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:00 P.Ruenros - A.Brankovic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:30 Osasuna - Getafe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:30 Rayo Vallecano - Real Sociedad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:30 Merkezefendi Bld. - Yalovaspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb5.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb5.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",20:30 Fatih Karagümrük - Kocaelispor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",21:00 MotoGP - Arjantin GP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint3.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint3.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",21:30 Stuttgart vs Bayer Leverkusen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",22:00 Osceola - Stockton Kings
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinnba.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinnba.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",22:00 Leicester City - Manchester Utd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb3.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb3.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",22:45 PSG - Marsilya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb4.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb4.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",22:45 Atalanta - Inter
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",23:00 Atletico Madrid - Barcelona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayin1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayin1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Sports 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb3.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb3.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Sports 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb4.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb4.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Sports 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinb5.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinb5.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Max 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinbm1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinbm1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI BeIN Max 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinbm2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinbm2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI S Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI S Sport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinss2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinss2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Tivibu 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Tivibu 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Tivibu 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint3.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint3.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Tivibu 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayint4.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayint4.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Smartspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinsmarts.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinsmarts.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Smartspor 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinsms2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinsms2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI TRT Spor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI TRT Spor 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrtspor2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrtspor2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI TRT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintrt1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintrt1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI A Spor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinas.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinas.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI ATV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinatv.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinatv.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI TV 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintv8.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintv8.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI TV 8,5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayintv85.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayintv85.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Sky Sports F1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinf1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinf1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI NBA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayinnbatv.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayinnbatv.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Euro Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayineu1.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayineu1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="TRGoals",CANLI Euro Sport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1238.xyz/
-https://u0.b4c8d3e9f1a2b7c5d90.cfd/yayineu2.m3u8
+#EXTVLCOPT:http-referrer=https://trgoals1239.xyz/
+https://a0.b4c8d3e9f1a2b7c5d91.cfd/yayineu2.m3u8
 
