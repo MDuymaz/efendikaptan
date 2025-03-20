@@ -39,7 +39,7 @@ if response.status_code == 200:
             # Saatte "CANLI" varsa "CANLI" olarak group-title değeri, yoksa "MAÇLAR"
             group_title = "CANLI" if "CANLI" in saat else "MAÇLAR"
             # EXTINF satırı
-            extinf = f"#EXTINF:-1 tvg-name=\"{takimlar}\" tvg-language=\"Turkish\" tvg-country=\"TR\" tvg-id=\"Spor_{takimlar.replace(' ', '')}\" tvg-logo=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5f_J9sHlpaFWuqM2i3GsUnsQMkyMb0zwBe6VFWqg1aOJ3-P0HEk4mUnUXFJ0sexlrzbP8aKsSaFAL25nzFjtZB3dieX40h4Qe-dhFu69_22VLjp8d4lFjarlTmeDhiMpa9BXMQrJZC1DvCD00KI74B2yvwH4JJapqBqERyE2NnO5wjIuIiCNcY98qmYnL/s300/logo.png\" group-title=\"{group_title}\",{saat} {takimlar}"
+            extinf = f"#EXTINF:-1 tvg-name=\"{takimlar}\" tvg-language=\"Turkish\" tvg-country=\"TR\" tvg-id=\"Spor_{takimlar.replace(' ', '')}\" tvg-logo=\"https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg\" group-title=\"{group_title}\",{saat} {takimlar}"
             # Veriyi formatla
             veri = f"{extinf}\n{sabit_metin}{yeni_url}"
             veriler.append(veri)
