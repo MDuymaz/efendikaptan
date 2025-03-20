@@ -1,14 +1,9 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="Türkiye vs Macaristan" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TürkiyevsMacaristan" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",20:00 Türkiye vs Macaristan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayintv8.m3u8
-
 #EXTINF:-1 tvg-name="İtalya vs Almanya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_İtalyavsAlmanya" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 İtalya vs Almanya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex1.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex3.m3u8
 
 #EXTINF:-1 tvg-name="Hollanda vs İspanya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Hollandavsİspanya" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 Hollanda vs İspanya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -18,17 +13,17 @@ https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex2.m3u8
 #EXTINF:-1 tvg-name="Hırvatistan vs Fransa" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_HırvatistanvsFransa" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 Hırvatistan vs Fransa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex3.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex6.m3u8
 
 #EXTINF:-1 tvg-name="Danimarka vs Portekiz" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_DanimarkavsPortekiz" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 Danimarka vs Portekiz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex4.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex5.m3u8
 
 #EXTINF:-1 tvg-name="Ukrayna vs Belçika" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_UkraynavsBelçika" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 Ukrayna vs Belçika
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex5.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex6.m3u8
 
 #EXTINF:-1 tvg-name="Bulgaristan vs İrlanda" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Bulgaristanvsİrlanda" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 Bulgaristan vs İrlanda
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
