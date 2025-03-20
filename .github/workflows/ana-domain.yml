@@ -1,9 +1,7 @@
 name: Run Python Script to Monitor URL
 
 on:
-  schedule:
-      - cron: "0 */2 * * *"  # Her 2 saatte bir çalışır 
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
+   workflow_dispatch:  # Manuel olarak çalıştırılabilir
 
 jobs:
   run-script:
