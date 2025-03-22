@@ -1,14 +1,14 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="Andorra vs Letonya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_AndorravsLetonya" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",22:45 Andorra vs Letonya
+#EXTINF:-1 tvg-name="Karadağ vs Cebelitarık" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_KaradağvsCebelitarık" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",20:00 Karadağ vs Cebelitarık
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex4.m3u8
+
+#EXTINF:-1 tvg-name="Moldova vs Norveç" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_MoldovavsNorveç" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",20:00 Moldova vs Norveç
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
 https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex1.m3u8
-
-#EXTINF:-1 tvg-name="Malta vs Finlandiya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_MaltavsFinlandiya" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",22:45 Malta vs Finlandiya
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex2.m3u8
 
 #EXTINF:-1 tvg-name="Polonya vs Litvanya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_PolonyavsLitvanya" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",22:45 Polonya vs Litvanya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
