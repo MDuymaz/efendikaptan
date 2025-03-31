@@ -1,171 +1,46 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="Fenerbahçe Beko - Mersin Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_FenerbahçeBeko-MersinSpor" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",13:00 Fenerbahçe Beko - Mersin Spor
+#EXTINF:-1 tvg-name="Eyüpspor - Rams Başakşehir" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Eyüpspor-RamsBaşakşehir" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",20:00 Eyüpspor - Rams Başakşehir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
+https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayin1.m3u8
+
+#EXTINF:-1 tvg-name="Esenler Erokspor - Ankaragücü" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EsenlerErokspor-Ankaragücü" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",17:00 Esenler Erokspor - Ankaragücü
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
+https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
+
+#EXTINF:-1 tvg-name="Türk Telekom - Anadolu Efes" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TürkTelekom-AnadoluEfes" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:00 Türk Telekom - Anadolu Efes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
 https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb5.m3u8
 
-#EXTINF:-1 tvg-name="Çin - Avustralya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Çin-Avustralya" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",13:00 Çin - Avustralya
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
-
-#EXTINF:-1 tvg-name="Filipinler - Japonya" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Filipinler-Japonya" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",13:25 Filipinler - Japonya
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
-
-#EXTINF:-1 tvg-name="Cagliari - Monza" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Cagliari-Monza" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",13:30 Cagliari - Monza
+#EXTINF:-1 tvg-name="Verona - Parma" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Verona-Parma" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",19:30 Verona - Parma
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
 https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss2.m3u8
 
-#EXTINF:-1 tvg-name="Avustralya - Yeni Zelanda" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Avustralya-YeniZelanda" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",13:50 Avustralya - Yeni Zelanda
+#EXTINF:-1 tvg-name="Kocaelispor - Sakaryaspor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Kocaelispor-Sakaryaspor" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",20:00 Kocaelispor - Sakaryaspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
 https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
 
-#EXTINF:-1 tvg-name="Greuther Fürth - Schalke 04" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_GreutherFürth-Schalke04" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",14:30 Greuther Fürth - Schalke 04
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb3.m3u8
-
-#EXTINF:-1 tvg-name="Preussen Münster - Braunschweig" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_PreussenMünster-Braunschweig" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",14:30 Preussen Münster - Braunschweig
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb2.m3u8
-
-#EXTINF:-1 tvg-name="Jahn Regensburg - Nürnberg" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_JahnRegensburg-Nürnberg" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",14:30 Jahn Regensburg - Nürnberg
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinbm1.m3u8
-
-#EXTINF:-1 tvg-name="Getafe - Villarreal" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Getafe-Villarreal" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",15:00 Getafe - Villarreal
+#EXTINF:-1 tvg-name="Cadiz - Eibar" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Cadiz-Eibar" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",21:30 Cadiz - Eibar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
 https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
 
-#EXTINF:-1 tvg-name="Galatasaray - Büyükçekmece" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Galatasaray-Büyükçekmece" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",15:30 Galatasaray - Büyükçekmece
+#EXTINF:-1 tvg-name="Lazio - Torino" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Lazio-Torino" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",21:45 Lazio - Torino
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb5.m3u8
+https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss2.m3u8
 
-#EXTINF:-1 tvg-name="PSV vs Ajax" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_PSVvsAjax" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",15:30 PSV vs Ajax
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintv85.m3u8
-
-#EXTINF:-1 tvg-name="Toulouse - Brest" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Toulouse-Brest" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",16:00 Toulouse - Brest
+#EXTINF:-1 tvg-name="Paris FC - Caen" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_ParisFC-Caen" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",21:45 Paris FC - Caen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
 https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb4.m3u8
 
-#EXTINF:-1 tvg-name="Fiorentina - Atalanta" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Fiorentina-Atalanta" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",16:00 Fiorentina - Atalanta
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss2.m3u8
-
-#EXTINF:-1 tvg-name="Freiburg - Union Berlin" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Freiburg-UnionBerlin" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",16:30 Freiburg - Union Berlin
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb3.m3u8
-
-#EXTINF:-1 tvg-name="Ross County - Dundee United" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_RossCounty-DundeeUnited" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",16:30 Ross County - Dundee United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
-
-#EXTINF:-1 tvg-name="Barcelona vs Girona" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_BarcelonavsGirona" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",17:15 Barcelona vs Girona
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
-
-#EXTINF:-1 tvg-name="Feyenoord vs G.A. Eagles" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_FeyenoordvsG.A.Eagles" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",17:45 Feyenoord vs G.A. Eagles
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintv85.m3u8
-
-#EXTINF:-1 tvg-name="Istres - Nantes" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Istres-Nantes" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:00 Istres - Nantes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinbm1.m3u8
-
-#EXTINF:-1 tvg-name="Emlak Konut - Beşiktaş" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EmlakKonut-Beşiktaş" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:00 Emlak Konut - Beşiktaş
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
-
-#EXTINF:-1 tvg-name="Angers - Rennes" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Angers-Rennes" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:15 Angers - Rennes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb2.m3u8
-
-#EXTINF:-1 tvg-name="Auxerre - Montpellier" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Auxerre-Montpellier" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:15 Auxerre - Montpellier
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb5.m3u8
-
-#EXTINF:-1 tvg-name="Le Havre - Nantes" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_LeHavre-Nantes" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:15 Le Havre - Nantes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb4.m3u8
-
-#EXTINF:-1 tvg-name="B.Dortmund vs Mainz" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_B.DortmundvsMainz" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",18:30 B.Dortmund vs Mainz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb3.m3u8
-
-#EXTINF:-1 tvg-name="Inter - Udinese" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Inter-Udinese" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",19:00 Inter - Udinese
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss2.m3u8
-
-#EXTINF:-1 tvg-name="AEK - PAOK" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_AEK-PAOK" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",19:00 AEK - PAOK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
-
-#EXTINF:-1 tvg-name="Athletic Bilbao - Osasuna" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_AthleticBilbao-Osasuna" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",19:30 Athletic Bilbao - Osasuna
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
-
-#EXTINF:-1 tvg-name="Genk vs KAA Gent" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_GenkvsKAAGent" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",19:30 Genk vs KAA Gent
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintv85.m3u8
-
-#EXTINF:-1 tvg-name="Valencia - Mallorca" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Valencia-Mallorca" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",19:30 Valencia - Mallorca
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
-
-#EXTINF:-1 tvg-name="Estoril vs Porto" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EstorilvsPorto" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",20:00 Estoril vs Porto
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayintrtspor.m3u8
-
-#EXTINF:-1 tvg-name="Tenessee - Houston Cougars" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Tenessee-HoustonCougars" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",21:20 Tenessee - Houston Cougars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
-
-#EXTINF:-1 tvg-name="Lille - Lens" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Lille-Lens" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",21:45 Lille - Lens
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinb3.m3u8
-
-#EXTINF:-1 tvg-name="Napoli - Milan" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Napoli-Milan" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",21:45 Napoli - Milan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss2.m3u8
-
-#EXTINF:-1 tvg-name="Real Betis - Sevilla" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_RealBetis-Sevilla" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",22:00 Real Betis - Sevilla
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
-https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
-
-#EXTINF:-1 tvg-name="J.Mensik - N.Djokovic" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_J.Mensik-N.Djokovic" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",22:00 J.Mensik - N.Djokovic
+#EXTINF:-1 tvg-name="Celta Vigo vs Las Palmas" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_CeltaVigovsLasPalmas" tvg-logo="https://pbs.twimg.com/profile_images/1690404380745347072/f-2uwEa2_400x400.jpg" group-title="MAÇLAR",22:00 Celta Vigo vs Las Palmas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1248.xyz/
 https://i0.b4c8d3e9f1a2b7c5d99.cfd/yayinss.m3u8
